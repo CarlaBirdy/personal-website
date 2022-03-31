@@ -26,9 +26,9 @@ address:
   region: Victoria
   country: Australia
   country_code: AU
-coordinates:
-  latitude: '-37.815060'
-  longitude: '144.961674'
+#coordinates:
+#  latitude: '-37.815060'
+#  longitude: '144.961674'
 contact_links:
   - icon: twitter
     icon_pack: fab
