@@ -60,13 +60,13 @@ rstudioapi::navigateToFile("content/home/about.md")
 # PROJECTS
 rstudioapi::navigateToFile("content/home/projects.md") #active:false
 
-# EXPERIENCE
-rstudioapi::navigateToFile("content/home/experience.md") #active:false
+# POSTS
+rstudioapi::navigateToFile("content/home/posts.md") #active:false
 
 #### DE-ACTIVEATED WIDGETS
 
-# POSTS
-rstudioapi::navigateToFile("content/home/posts.md") #active:false
+# EXPERIENCE
+rstudioapi::navigateToFile("content/home/experience.md") #active:false
 
 # SKILLS
 rstudioapi::navigateToFile("content/home/skills.md") #active:false
@@ -78,7 +78,7 @@ rstudioapi::navigateToFile("content/home/gallery.md") #active:false
 rstudioapi::navigateToFile("content/home/talks.md") #active:false
 
 # ACCOMPLISHMENTS
-rstudioapi::navigateToFile("content/home/accomplishments.md") #active:f alse
+rstudioapi::navigateToFile("content/home/accomplishments.md") #active: false
 
 # FEATURED
 rstudioapi::navigateToFile("content/home/featured.md") #active: false

@@ -1,17 +1,17 @@
 # Theme metadata
-name = "Minimal"
+name = "Carla"
 
 # Is theme light or dark?
 light = true
 
 # Primary
-primary = "#1565c0"
+primary = "#56c667"
 
 # Menu
 menu_primary = "#fff"
-menu_text = "#34495e"
-menu_text_active = "#2962ff"
-menu_title = "#fff"
+menu_text = "#000000"
+menu_text_active = "#56c667"
+menu_title = "#000000"
 
 # Home sections
 home_section_odd = "rgb(255, 255, 255)"

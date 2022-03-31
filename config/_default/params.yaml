@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: ocean # minimal, forest, strawberyy, coffee, 1950s, rose, apogee, dark, 
+theme: carla # minimal, forest, strawberyy, coffee, 1950s, rose, apogee, dark, 
 day_night: true
 font: ''
 font_size: L
@@ -136,4 +136,4 @@ cms:
   local_backend: false
 icon:
   pack:
-    ai: false
+    ai: true
