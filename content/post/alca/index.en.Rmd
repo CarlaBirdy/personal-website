@@ -1,0 +1,20 @@
+---
+title: "PLC2022 Australian Land Conservation Alliance Conference"
+author: "Carla Archibald"
+date: 2022-03-11T21:13:14-05:00
+categories: ["Conservation"]
+tags: ["conference", "private land"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Australian Land Conservation Alliance Conference #PLC2022
+
+The Australian Land Conservation Alliance is a member organisation made up of people and organisations that contribute to private land conservation. I attended the virtual PLC2022 organised by ALCA on the 8 to 10 March. I presented in the ‘NSW Research Showcase’ and spoke about my work at UQ on research funded by the NSW Koala Research Strategy. 
+
+You can read more about it here: <https://alca.org.au/alca_event/plc2022/>
+
+![A terrible screenshot I was sent during my talk.](/Users/flickarchibald/Documents/Carla/personal-website/content/post/alca/figure.jpeg)
+

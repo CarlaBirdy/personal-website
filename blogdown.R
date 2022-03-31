@@ -14,6 +14,8 @@ remotes::install_github("rstudio/blogdown")
 library(rstudioapi) # load blogdown
 library(blogdown) # load blogdown
 
+setwd("/Users/flickarchibald/Documents/Carla/personal-website")
+
 # start new site
 #new_site(theme = "wowchemy/starter-academic") # create your website!
 blogdown::serve_site() 
@@ -24,7 +26,7 @@ blogdown::check_site()
 
 # configure config.yaml file
 # baseurl: 'http://carla-archibald.me' or http://carla-archibald.netlify.app
-rstudioapi::navigateToFile("config.yaml")
+rstudioapi::navigateToFile("config/_default/config.yaml")
 
 # configure gitignore file
 file.edit("gitignore") #.Rproj.user, .Rhistory, .RData, .Ruserdata, .DS_Store, Thumbs.db
@@ -35,7 +37,6 @@ rstudioapi::navigateToFile("netlify.toml")
 # Hugo: check site
 blogdown::check_site()
 blogdown::serve_site()
-blogdown::build_site()
 
 # Hugo: config_Rprofile
 blogdown::config_Rprofile()
@@ -62,6 +63,8 @@ rstudioapi::navigateToFile("content/home/projects.md") #active:false
 
 # POSTS
 rstudioapi::navigateToFile("content/home/posts.md") #active:false
+rstudioapi::navigateToFile("content/post/_index.md") #active:false
+rstudioapi::navigateToFile("content/post/2020-12-01-r-rmarkdown/index.en.Rmd")
 
 #### DE-ACTIVEATED WIDGETS
 
@@ -95,5 +98,8 @@ rstudioapi::navigateToFile("content/home/publications.md") #active: false
 # ADDITIONAL PAGES
 rstudioapi::navigateToFile("content/home/demo.md") #active: false
 rstudioapi::navigateToFile("content/home/hero.md") #active: false
+
+# Build site
+blogdown::build_site()
 
 # End :) 
